@@ -5,10 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="images/favicom.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <title>Tienda de Mascotas</title>
 </head>
 <body>
-    <header class="header-container">
+    <!-- <header class="header-container">
         <div class="logo-container" >
             <img class="logo-img" src="images/LogoPNG.png" alt="Logotipo Tienda de Mascotas">
         </div>
@@ -20,22 +21,36 @@
                 <li><a href="pages/quienesSomos.html" class="lista-item">Quiénes somos</a></li>
             </ul>
         </nav>
+    </header> -->
+
+    <header >
+        <nav class="navbar navbar-expand-lg header-container">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="images/LogoPNG2.png" alt="Logo Tienda de Mascotas" width="220" height="70">
+                </a>
+            </div>
+            <div class="container-fluid">
+              <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link" href="index.html">Inicio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="pages/productos.html">Productos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="pages/servicios.html">Servicios</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="pages/quienesSomos.html">Quiénes somos</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+        </nav>
+
     </header>
-
-    <!-- git init (inicializa la hermmienta en nuestro proyecto) -->
-    <!-- git status (nos muestra el estado de nuestros archivos o si esta todo bien) -->
-    <!-- git add ( . , un archivo en específico, varios archivos, porque git add es el comando que va a sumar los cambios que es estuve ralizando en mis archivos y los mantiene en un area de la compu que se llama stage o staging area) -->
-    <!-- git log (historial de commits) -->
-    <!-- git show (historial con diferencias, salgo con Q) -->
-    <!-- git branch -nombre de la rama nueva- (crea una rama nueva)-->
-    <!-- git checkout -b -nombre de la rama nueva- (crea una rama nueva y te pocisiona sobre ella) -->
-    <!-- git checkout -l (para checkear el listado de ramas creadas) -->
-    <!-- git checkout -nombre de la rama- (te pocisiona sobre la rama elegida) -->
-    <!-- git merge -nombre de la rama- (une las ramas al main o master) -->
-    
-
-
-
 
     <section class="destacados-container">
         <h1>Productos destacados</h1>
@@ -61,6 +76,19 @@
             </a>           
         </div>
     </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
     
 </body>
 </html>
+
+    <!-- git init (inicializa la hermmienta en nuestro proyecto) -->
+    <!-- git status (nos muestra el estado de nuestros archivos o si esta todo bien) -->
+    <!-- git add ( . , un archivo en específico, varios archivos, porque git add es el comando que va a sumar los cambios que es estuve ralizando en mis archivos y los mantiene en un area de la compu que se llama stage o staging area) -->
+    <!-- git log (historial de commits) -->
+    <!-- git show (historial con diferencias, salgo con Q) -->
+    <!-- git branch -nombre de la rama nueva- (crea una rama nueva)-->
+    <!-- git checkout -b -nombre de la rama nueva- (crea una rama nueva y te pocisiona sobre ella) -->
+    <!-- git checkout -l (para checkear el listado de ramas creadas) -->
+    <!-- git checkout -nombre de la rama- (te pocisiona sobre la rama elegida) -->
+    <!-- git merge -nombre de la rama- (une las ramas al main o master) -->
