@@ -119,6 +119,10 @@ footer{
     background-color: beige;
 }
 
+.sub-container ul{
+    padding-left: 0;
+}
+
 h2{
     padding: 20px;
     font-size: 30px;
@@ -145,6 +149,51 @@ h2{
 
 /*Fin CSS Productos*/
 
+/*--------------------------------------------------------------------------------------------------------------------------------------------*/
+/* CSS Servicios */
+
+#grilla{
+    display: grid;
+    grid-template-rows: 70px 1fr 100px;
+    grid-template-columns: 15% 85% ;
+
+    grid-template-areas: 
+    "header header"
+    "categorias cards"
+    "footer footer"
+    ;
+}
+
+.grilla-header{
+    grid-area: header;
+}
+
+.services-container-grid{
+    grid-area: categorias;
+    height: 100vw;
+    border-right: 0.5px solid gray;
+    background-color: beige;
+    padding: 30px;
+    align-items: center;
+    
+}
+
+
+.cards-container{
+    grid-area: cards;
+}
+
+.grilla-footer{
+    grid-area: footer;
+}
+
+
+
+
+
+
+
+/* Fin CSS Servicios */
 /*--------------------------------------------------------------------------------------------------------------------------------------------*/
 
 /*CSS Quiénes somos*/
